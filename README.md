@@ -4,10 +4,10 @@
 For my final project, I decided to build a security system that mimics the feel of an old-school mechanical safe, but with a digital brain. Instead of using a boring numeric keypad (which is what everyone does), I wanted to use a potentiometer to create a "rotary dial" interface. You turn the knob to find the numbers, and the system gives you visual feedback on an LCD and physical feedback via a servo motor lock.
 
 ## Features 
-Analog "Rotary Dial" Interface: Simulates a mechanical safe dial using a potentiometer, converting analog rotation into precise digital selection.
-Intelligent Signal Processing: Uses a custom "window of tolerance" algorithm to stabilize noisy sensor inputs for a smooth user experience.
-Security Logic: Features a penalty lockout system (time-out) after failed attempts and persistent password storage using EEPROM (memory works even after power loss).
-State Machine Architecture: The system relies on a robust Finite State Machine (Idle, Parsing, Validation, Lockout) rather than simple linear code.
+- Analog "Rotary Dial" Interface: Simulates a mechanical safe dial using a potentiometer, converting analog rotation into precise digital selection.
+- Intelligent Signal Processing: Uses a custom "window of tolerance" algorithm to stabilize noisy sensor inputs for a smooth user experience.
+- Security Logic: Features a penalty lockout system (time-out) after failed attempts and persistent password storage using EEPROM (memory works even after power loss).
+- State Machine Architecture: The system relies on a robust Finite State Machine (Idle, Parsing, Validation, Lockout) rather than simple linear code.
 
 ## Bill of Materials
 - Arduino Uno
